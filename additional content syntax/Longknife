@@ -1,0 +1,14 @@
+WeaponsList["longknife"] = {
+	regExpSearch : /^le(?=.*longknife).*$/i,
+	name : "Longknife"
+	source : ["HB", 0],
+	list : "melee",
+	ability : 1,
+	type : "Martial",
+	damage : [1, 6, "slashing"],
+	range : "Melee",
+	description : "Finesse, light",
+	abilitytodamage : true,
+	weight : 2,
+	modifiers : [1, "to hit"], 
+	};
